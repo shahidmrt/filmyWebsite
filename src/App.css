@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fredoka+One&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(58, 57, 57,50);
+    background: url(../public/photoes/user-hero-bg.jpg) ;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+.Fredoka1{
+  font-family: 'Dosis', sans-serif;
+
+}
+.Fredoka{
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Dosis', sans-serif;
+  /* font-size: 60px; */
+  color: #ffffff;
+  /* font-weight: 800; */
+  /* text-transform: uppercase; */
+  /* line-height: 60px; */
+  
+}
+
+.teko{
+    font-family: 'Teko', sans-serif;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.nav-input{
+  background: url(../public/photoes/topsearch.png)no-repeat right 20px center ;
+}
+/* section3  */
+
+.sec3tab{
+  display: none;
+}
+.sec3tab.active{
+  display: block;
+}
+footer li{
+  padding-bottom: 10px;
+  
+}
+footer li:hover{
+  color: rgb(255, 208, 0);
+}
+footer h3{
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+footer input{
+  background: url(../public//photoes/search-bg.png) no-repeat right 20px center;
+  background-size: 20px;
+}
+footer, .sec1{
+  background-color: rgb(58, 57, 57,50);
+  background: url(../public/photoes/user-hero-bg.jpg) ;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+}
+/* Footer End  */
+.home1div{
+ display: none;
+ pointer-events: none;
+}
+
+.ahovr:hover .home1div{
+  display: flex;
+  
+  pointer-events: auto;
+
+
+}
+.home1bg{
+  background-color: rgb(58, 57, 57,50);
+  background: url(../public/photoes/user-hero-bg.jpg) ;
+  background-repeat:repeat;
+  background-position: center;
+  /* background-size: cover; */
+}
+
+#frstslider{
+  background-color: rgb(58, 57, 57,50);
+  background: url(../public/photoes/user-hero-bg.jpg) ;
+  background-repeat:repeat;
+  background-position: center;
+  /* background-size: cover; */
+}
+
+.btnshow{
+  display: none;
+}
+.filtrdiv:hover .fitrImg{
+  opacity: 0.35;
+  
+}
+.filtrdiv:hover .fitrName{
+  opacity: 0.25;
+  
+}
+.filtrdiv:hover .fitrRate{
+  opacity: 0.25;
+  
+}
+
+
+.filtrdiv:hover .btnshow{
+  display: block;
+
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: url(../public/photoes/user-hero-bg.jpg) ;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-a .lastImg{
+  position: relative;
+  width: 100%;
+}
+
+.last-a:hover .lastImg{
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+  
+}
+
+.fitrImg:after{
+  /* box-shadow: inset -40px -40px black ; */
+  box-shadow: inset -5px -50px 100px -15px #000000;
+  position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 69;
+  
+}
+ 
+/* HOME-1 END  */
+
+/* HOME-2 START  */
+.home2sec{
+  background: url(../public/photoes/slider-bg2.jpg) ;
+  /* background-repeat: repeat-y; */
+  background-position: center;
+  background-size: cover;
+
+}
+.galrydiv:after{
+  box-shadow: inset -5px -50px 100px -15px #000000;
+  position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 69;
+
+
+}
+.TBtn{
+  display: none;
+
+}
+.Tdiv:hover .TBtn{
+  display: block;
+
+}
+.Tdiv:hover .Timg{
+  opacity: 0.25;
+}
+.Tdiv:hover .Ttil{
+  opacity: 0.25;
+}
+.Tdiv:hover .Tratf{
+  opacity: 0.25;
+}
+/* HOME-2 END  */
+
+/* MovieGrid section START  */
+.mvGridsec{
+  background: url(../public/photoes/slider-bg2.jpg) ;
+  /* background-repeat: repeat-y; */
+  background-position: center;
+  background-size: cover;
+
+}
+.css-13cymwt-control{
+  background-color: #233a50 !important;
+  border: none !important;
+  color: gray;
+}
+
+/* MovieGrid section END  */
+
+/* MovieSingle Start  */
+.MSinglebgTop{
+  background: url(../public/photoes/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.MSinglebgTop:before{
+  position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.active-tabs{
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  padding-bottom: 10px;
+
+}
+.tabs:hover{
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.content{
+  display: none;
+}
+.active-content{
+  display: block;
+}
+/* tabs Media  */
+.videoImg a{
+  position:absolute;
+  display: flex;
+      /* margin: auto; */
+      align-items: center;
+      justify-content: center;
+      top: 0px;
+      bottom:0;
+      right: 0;
+      left: 0;
+}
+
+.videoImg a:hover{
+      color: #020d18;
+}
+.playStikr:hover{
+  opacity: .8;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+ /* Movie Single End  */
+
+  /* SERIES SINGLE START  */
+  .SSinglebgTop{
+    background: url(../public/photoes/sr-single.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+  }
+  .SSinglebgTop:before{
+    position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+  }
+  /* SERIES SINGLE END  */
+
+  /* CelebratyGrid1 page start  */
+
+  .CelebrityGridbg{
+    background: url(../public/photoes/user-hero-bg.jpg);
+    background-repeat: no-repeat;
+  }
+  .CelebrityGridbg::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: .4;
+    
+  }
+   /* CelebratyGrid1 page start  */
